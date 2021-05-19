@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Matrix";
+  src: url(./fonts/Matrix\ 400.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Matrix";
+  background-image: url(https://i.gifer.com/NvL.gif);
+  display: grid;
+}
+.img {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+.number {
+  display: flex;
+  color: #96de3d;
+  font-size: 202px;
+  margin: 10px 0;
+  justify-content: center;
+  font-family: auto;
+  font-weight: 500;
+}
+.timer {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+.field {
+  color: #96de3d;
+  font-size: 70px;
+  font-family: "Matrix";
+  margin-left: 50px;
+}
+.description {
+}
+.link {
+  font-family: "Matrix";
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  color: #96de3d;
+  font-size: 40px;
+  opacity: 5%;
+  margin-top: 55px;
+  text-decoration: none;
+  width: 59vw;
+}
+.link:hover {
+  opacity: 100%;
+  -webkit-transition: all 2s ease;
+}
